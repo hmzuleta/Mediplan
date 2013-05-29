@@ -1,0 +1,10 @@
+<div class="container text-center">
+  <% if @creo then%>
+      <h1>Se registró con éxito al sistema.</h1><br>
+      <h3>Se le redireccionará a la página de inicio de sesión.</h3>
+      <meta http-equiv="refresh" content="2;url=http://127.0.0.1:3000/page/pat_login">
+  <% else %>
+      <h1>No se pudo crear su cuenta.</h1>
+      <meta http-equiv="refresh" content="2;url=http://127.0.0.1:3000/">
+  <% end %>
+</div>

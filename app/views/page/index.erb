@@ -1,0 +1,45 @@
+<% if session[:usuario]==nil %>
+<br>
+<div class="container">
+    <p class="text-center"><img border="0" src="../assets/Logo txt med.PNG"></p>
+    <p class="text-center"> <strong>Bienvenido a Mediplan:</strong> el sistema de agendamiento de citas del Hospital Santander </p>
+  <div class="row">
+    <div class="span2">
+    </div>
+    <div class="span4">
+      <h2 class="text-center">Soy paciente</h2>
+      <p class="text-center">
+        <a class="btn btn-primary" href="/page/pat_login">Iniciar sesión <i class="icon-white icon-ok"></i>
+        </a>
+      </p>
+      <p class="text-center">
+        <a class="btn btn-success" href="/page/pat_signup">Aún no tengo cuenta <i class="icon-white icon-plus"></i>
+        </a>
+      </p>
+    </div>
+    <div class="span4">
+      <h2 class="text-center">Soy médico</h2>
+      <p class="text-center">
+        <a class="btn btn-primary" href="/page/doc_login">Iniciar sesión <i class="icon-white icon-ok"></i>
+        </a>
+      </p>
+    </div>
+    <div class="span2">
+    </div>
+  </div>
+  </div>
+  <hr>
+
+  <%elsif session[:usuario]=='pat'%>
+
+  <meta http-equiv="refresh" content="0;url=http://127.0.0.1:3000/page/pat_page">
+
+  <%elsif session[:usuario]=='doc'%>
+
+  <meta http-equiv="refresh" content="0;url=http://127.0.0.1:3000/page/doc_page">
+
+  <%elsif session[:usuario]=='jce'%>
+
+  <meta http-equiv="refresh" content="0;url=http://127.0.0.1:3000/page/admin_page">
+
+  <% end %>

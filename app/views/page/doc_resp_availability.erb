@@ -1,0 +1,43 @@
+<% if !@entro then%>
+    <td>
+      <tr>
+      <h1 class="text-center">
+      <%=@msj.to_s%>
+      <%= form_tag('/page/doc_page') do %>
+      <%= hidden_field_tag :pID_volver, @pID%>
+      <%= hidden_field_tag :volver,'volver'%>
+      </h1>
+      </tr>
+      <tr>
+        <h1 class="text-center">
+         <%= button_tag(type: "submit", class: "btn btn-primary", title:"Volver") do %>
+            Volver
+         <% end %>
+        </h1>
+
+      </tr>
+       <%end%>
+    </td>
+<% else %>
+    <td>
+      <tr>
+      <h1 class="text-center">
+      <%= form_tag('/page/doc_page') do %>
+      <%= 'Se crearon '+ @i.to_s + ' disponibilidades'%>
+      <%= hidden_field_tag :pID_volver ,@pID%>
+      <%= hidden_field_tag :volver,'volver'%>
+       </h1>
+       </tr>
+       <tr >
+         <h1 class="text-center">
+          <%= button_tag(type: "submit", class: "btn btn-primary", title:"Volver") do %>
+                  Volver
+         <% end %>
+         </h1>
+
+       </tr>
+        <%end%>
+     </td>
+
+
+<%end%>

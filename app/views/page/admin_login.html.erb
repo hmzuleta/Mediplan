@@ -1,0 +1,10 @@
+<div class="container text-center">
+    <h1>Ingresar como Jefe de Consulta Externa</h1><br>
+    <%= form_tag ('/page/admin_page') do %>
+        <%= password_field_tag :pass, nil, {placeholder: 'Clave'}%><br>
+        <%= button_tag(type: "submit", class: "btn btn-primary") do %>
+            Entrar <i class="icon-white icon-user"></i>
+        <% end %>
+    <%end%>
+    <hr>
+</div>

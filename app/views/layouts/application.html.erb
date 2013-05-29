@@ -1,0 +1,167 @@
+<html>
+<head>
+	<title>Hospital Santander</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="http://origin.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap.css">	<%= stylesheet_link_tag :default %>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <%= javascript_include_tag "application" %>
+	<%= csrf_meta_tags %>
+	<%= favicon_link_tag "favicon.ico" %>
+
+  <!--SCRIPT PARA SELECCIONAR FECHAS TOMADO DE http://webdesignandsuch.com/add-a-calendar-date-picker-to-a-form-with-jquery/,
+CÓDIGO OPEN SOURCE (api.jqueryui.com)-->
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+  <script>
+      $(document).ready(function () {
+          var now = new Date();
+          var max = new Date(now.getFullYear(), now.getMonth(), 3);
+          $("#datepicker").datepicker({
+                      dateFormat: "dd/mm/yy",
+                      dayNamesMin: ["Do", "Lu", "Ma", "Mi", "Ju", "Vi", "Sá"],
+                      monthNames:["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],
+                      beforeShowDay: $.datepicker.noWeekends,
+                      minDate: 1,
+                      maxDate:max
+                  }
+          );
+          $("#datepicker").datepicker($.datepicker.regional["es"]);
+      });
+  </script>
+
+  <style>
+      body{
+          font-family: 'Ubuntu', sans-serif;
+          background: #f9fcff;
+          background: -moz-linear-gradient(top,  #f9fcff 0%, #eaf4ff 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9fcff), color-stop(100%,#eaf4ff));
+          background: -webkit-linear-gradient(top,  #f9fcff 0%,#eaf4ff 100%);
+          background: -o-linear-gradient(top,  #f9fcff 0%,#eaf4ff 100%);
+          background: -ms-linear-gradient(top,  #f9fcff 0%,#eaf4ff 100%);
+          background: linear-gradient(to bottom,  #f9fcff 0%,#eaf4ff 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcff', endColorstr='#eaf4ff',GradientType=0 );
+          height: 100%;
+          margin: 0;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcff', endColorstr='#bcddff',GradientType=0 );
+      }
+      html {
+          height: 100%;
+      }
+      .navbar-inner {
+          background: #0088cc;
+          background: -moz-linear-gradient(top,  #0088cc 0%, #0044cc 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0088cc), color-stop(100%,#0044cc));
+          background: -webkit-linear-gradient(top,  #0088cc 0%,#0044cc 100%);
+          background: -o-linear-gradient(top,  #0088cc 0%,#0044cc 100%);
+          background: -ms-linear-gradient(top,  #0088cc 0%,#0044cc 100%);
+          background: linear-gradient(to bottom,  #0088cc 0%,#0044cc 100%);
+          border-color: #0044cc #0044cc #002a80;
+          border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088cc', endColorstr='#0044cc',GradientType=0 );
+          float: none;
+          line-height: 19px;
+          text-decoration: none;
+          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+          color:#FFF !important;
+          -webkit-box-shadow: 0px 2px 30px rgba(125, 125, 125, 0.22);
+          -moz-box-shadow:    0px 2px 30px rgba(125, 125, 125, 0.22);
+          box-shadow:         0px 2px 30px rgba(125, 125, 125, 0.22);
+      }
+      .navbar .brand {
+          display: block;
+          float: left;
+          padding: 10px 20px 10px;
+          margin-left: -20px;
+          font-size: 20px;
+          font-weight: 200;
+          color: white;
+          text-shadow: 0 -1px 0 #333;
+      }
+      .navbar-inner .nav .navbar-link{
+          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+          color:#FFF !important;
+      }
+      .navbar .nav .active > a, .navbar .nav .active > a:hover {
+          background: #1829bf;
+          background: -moz-linear-gradient(top,  #1829bf 0%, #0b2493 100%);
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1829bf), color-stop(100%,#0b2493));
+          background: -webkit-linear-gradient(top,  #1829bf 0%,#0b2493 100%);
+          background: -o-linear-gradient(top,  #1829bf 0%,#0b2493 100%);
+          background: -ms-linear-gradient(top,  #1829bf 0%,#0b2493 100%);
+          background: linear-gradient(to bottom,  #1829bf 0%,#0b2493 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1829bf', endColorstr='#0b2493',GradientType=0 );
+          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+          color:white;
+      }
+      .navbar-inner .nav li a:hover {
+          background-color:rgba(255, 255, 255, 0.15);
+      }
+      .hero-unit{
+          background-color: rgba(255, 255, 255, 0.45);
+      }
+      footer{
+          height: 60px;
+          width:100%;
+          position: relative;
+          left: 0;
+          bottom: 0;
+      }
+  </style>
+
+</head>
+<body>
+	<!-- Comienzo de la barra -->
+	<div class="navbar">
+		<div class="navbar-inner">
+			<a class="brand" data-toggle="tooltip" title="Home" href="/">Mediplan</a>
+			<% if session[:usuario] != 'jce' %>
+				<% if session[:usuario] == 'pat' %>
+				<ul class="nav">	
+					<li class="active">
+                      <a class="navbar-link" href="/page/pat_page" title="Home"><%= session[:nombre] %></a>
+                    </li>
+				</ul>
+				<% elsif session[:usuario] == 'doc' %>
+				<ul class="nav">	
+					<li class="active">
+                      <a class="navbar-link" href="/page/doc_page" title="Home">Dr. <%= session[:nombre] %></a>
+                    </li>
+				</ul>
+				<% end %>
+			<% else %>
+				<ul class="nav">	
+					<li class="active">
+                      <a class="navbar-link" href="/page/admin_page" title="Home">Jefe Consulta Externa</a>
+                    </li>
+				</ul>
+			<% end %>
+			<% if session[:usuario] != nil %>
+				<ul class="nav pull-right">
+					<li><a class="navbar-link" href="/logout">Cerrar sesión</a></li>
+				</ul>
+			<% else %>
+				<ul class="nav">	
+					<li><a class="navbar-link" href="/page/admin_login">Jefe de Consulta Externa</a></li>
+				</ul>
+			<% end %>
+		</div>
+	</div>
+	<!-- Fin de la barra-->
+	<%=yield%>
+	<!-- Comienzo del Footer -->
+	<div class="container text-center">
+      <footer class="text-center">
+        <small>
+          Creado por Mediplan<br>
+          Jaime Fernández, Julián Muñoz, Hugo Zuleta<br>
+          Universidad de los Andes<br>
+          2013
+        </small>
+      </footer>
+	</div>
+		<!-- Fin del Footer -->
+</body>
+</html>

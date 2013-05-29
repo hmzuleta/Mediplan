@@ -1,0 +1,28 @@
+<% if session[:usuario] == nil %>
+
+  <div class="container text-center">
+    <h1>Ingresar como Médico</h1>
+      <h4>Ingrese sus credenciales:</h4><br>
+      <%= form_tag('/page/doc_page') do %>
+		<%= text_field_tag :name, nil, {placeholder: 'Nombre'} %><br>
+		<%= password_field_tag :pID, nil, {placeholder: 'Cédula'} %><br>
+		<%= button_tag(type: "submit", class: "btn btn-primary") do %>
+          Entrar <i class="icon-white icon-user"></i>
+        <% end %>
+      <%end%>
+  </div>
+  <hr>
+
+<% elsif session[:usuario]=='pat'%>
+
+  <meta http-equiv="refresh" content="0;url=http://127.0.0.1:3000/page/pat_page">
+
+<% elsif session[:usuario]=='doc'%>
+
+  <meta http-equiv="refresh" content="0;url=http://127.0.0.1:3000/page/doc_page">
+
+<% elsif session[:usuario]=='jce'%>
+
+  <meta http-equiv="refresh" content="0;url=http://127.0.0.1:3000/page/jce_page">
+
+<%end%>

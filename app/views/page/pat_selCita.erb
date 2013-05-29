@@ -1,0 +1,39 @@
+<div class="container text-center">
+  <% if(@citas.empty?) then%>
+    <h1>No hay citas disponibles para la especialidad seleccionada</h1>
+    <br>
+      <%= link_to '<i class="icon-white icon-refresh"></i> Intentar de nuevo'.html_safe, '/page/pat_selEsp', {class: 'btn btn-primary'}%>
+    <br>&nbsp;
+  <% else %>
+    <h1>Citas disponibles</h1>
+    <table class="table table-hover">
+      <tr> 
+        <th align="center">Hora</th>
+        <th align="center">Dia</th>
+        <th align="center">Docotor</th>
+        <th align="center">Consultorio</th>
+        <th align="center"></th>
+      </tr>
+      <% @citas.each do |appointment| %>
+        <tr>
+          <% if(appointment[:pID_patient] == nil)then %>
+            <%= form_tag('/page/pat_reser') do %>
+              <td align="center"><%= appointment[:hour].to_s(:time)%></td>
+              <td align="center"><%= appointment[:day].to_formatted_s(:long)%></td>
+              <td align="center"><%= Doctor.where(:pID => appointment[:pID_doctor]).first[:name]%></td>
+              <td align="center"><%= appointment[:office] %></td>
+              <%= hidden_field_tag :hora, appointment[:hour] %>
+              <%= hidden_field_tag :dia, appointment[:day] %>
+              <%= hidden_field_tag :doc, appointment[:pID_doctor] %>
+              <td>
+                <%= button_tag(type: 'submit', class: 'btn btn-success') do %>
+                Reservar 
+                <% end %>
+              </td>
+            <% end %>
+          <% end %>
+        </tr>
+      <% end %>
+    </table>
+  <% end %>
+</div>

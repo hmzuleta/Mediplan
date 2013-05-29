@@ -1,0 +1,28 @@
+<div class="container text-center">
+  <h1>Registrar nuevo médico</h1><br>
+  <%= form_tag('/page/admin_addDoc') do %>
+    <div class="control-group">
+      <div class="controls">
+        <%= text_field_tag :name, nil, {placeholder: 'Nombre completo'} %>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <%= text_field_tag :id, nil, {placeholder: 'Número de cédula'} %>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <%= select_tag :specialty, options_for_select(@especialidades),:prompt => 'Seleccione una especialidad'%>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <%= button_tag(type: "submit", class: "btn btn-success") do %>
+            Registrar médico <i class="icon-white icon-plus"></i>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+  </div>
+  <hr>

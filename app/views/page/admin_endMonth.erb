@@ -1,0 +1,12 @@
+<div class="container text-center">
+  <% if @terminado then%>
+      <h1>¡El mes fue terminado con éxito!</h1>
+      <meta http-equiv="refresh" content="2;url=http://127.0.0.1:3000/page/admin_page">
+  <% elsif !@findemes then %>
+      <h1>Aún no es fin de mes. No se pudo terminar el mes.</h1>
+      <meta http-equiv="refresh" content="2;url=http://127.0.0.1:3000/page/admin_page">
+  <% else %>
+      <h1>No se pudo terminar el mes. Intente nuevamente.</h1>
+      <meta http-equiv="refresh" content="2;url=http://127.0.0.1:3000/page/admin_page">
+  <% end %>
+</div>

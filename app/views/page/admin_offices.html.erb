@@ -1,0 +1,53 @@
+<div class="container text-center">
+  <% if session[:usuario] == 'jce' %>
+      <% if @recDisp %>
+          <div class="alert">
+            <a class="close" data-dismiss="alert">×</a>
+            <strong>Importante!</strong> Ingrese las disponibilidades de los consultorios antes de generar los Horarios.
+          </div>
+      <% end %>
+      <h1>Listado de Consultorios</h1>
+      <% if(@oficinas.empty?)%>
+          <h6>Actualmente, no hay Consultorios Inscritos</h6><br>
+      <% else %>
+          <div class="row">
+            <div class="span3">
+              <h3 class="text-center">Jefe de Consulta Externa</h3>
+            </div>
+            <!-- TABLA DE CITAS ACTUALES -->
+            <div class="span8">
+              <table class="table table-hover text-center">
+                <tr>
+                  <th width="33%" align="center">Ubicación</th>
+                  <th width="33%" align="center">Especialidad</th>
+                  <th width="33%" align="center"></th>
+                </tr>
+                <!--ESTO SE REPITE N VECES (NUMERO DE CITAS YA RESERVADAS)-->
+                <% @oficinas.each do |ofi| %>
+                    <tr>
+                      <%= form_tag('/page/admin_addOfficeDisp') do %>
+                          <td width="33%" align="center"><%= ofi[:location]%></td>
+                          <td width="33%" align="center"><%= ofi[:specialty]%></td>
+                          <td width="33%" align="center">
+                            <%= button_tag(type: "submit", class: "btn btn-primary") do %>
+                                Agregar Disponibilidad
+                            <% end %>
+                          </td>
+                          <%= hidden_field_tag :location, ofi[:location] %>
+                      <% end %>
+                    </tr>
+                <%end%>
+                <!--HASTA ACÁ-->
+              </table>
+            </div>
+          </div>
+      <% end %>
+      <p class="text-center">
+        <a class="btn btn-success" href="/page/admin_insCons">Inscribir Consultorio<i class="icon-white icon-plus"></i></a>
+      </p>
+  <% else %>
+      <h1>No admin :(</h1>
+      <h5>Necesita ingresar como jefe de consulta externa para acceder a esta página</h5>
+      <br>
+  <% end %>
+</div>

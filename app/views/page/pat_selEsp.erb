@@ -1,0 +1,8 @@
+<div class="container text-center">
+
+	<h1>Reservar una cita</h1>
+	<%= form_tag('/page/pat_selCita') do %>
+      <%= select_tag :espec, options_for_select(@especialidades),:prompt => 'Seleccione una especialidad', :onchange => 'this.form.submit();' %>
+  	<%end%>
+
+</div>

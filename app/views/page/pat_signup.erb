@@ -1,0 +1,46 @@
+<div class="container text-center">
+  <script language="javascript">
+    function validateform(){
+      var cedula = document.getElementById('pid').value;
+      var cedulaConfirm = document.getElementById('pidconfirm').value;
+      if (cedula != cedulaConfirm){
+          alert("¡Las cédulas no concuerdan! Verifique los valores ingresados e intente de nuevo.");
+          return false;
+      }
+        return true;
+    }
+  </script>
+  <h1>Registrarse como paciente</h1><br>
+  <%= form_tag('/page/pat_create') do %>
+    <div class="control-group">
+      <div class="controls">
+        <%= text_field_tag :name, nil, {placeholder: 'Nombre completo'} %>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <%= text_field_tag :cedula, nil, {placeholder: 'Número de cédula'} %>
+      </div>
+    </div>
+    <div class="control-group">
+      <div class="controls">
+        <%= text_field_tag :cedulaconfirm, nil, {placeholder: 'Confirme su cédula'} %>
+      </div>
+    </div>
+    <!--<div class="control-group">
+      <div class="controls">
+        <input type="password" id="txtPWConfirm" placeholder="Confirme su contraseña">
+      </div>
+    </div>
+    -->
+    <div class="control-group">
+      <div class="controls">
+        <%= button_tag(type: "submit", class: "btn btn-success", :onclick => "return validateform();") do %>
+            Registrarse <i class="icon-white icon-plus"></i>
+        <%end%>
+      </div>
+    </div>
+  <%end %>
+
+</div>
+  <hr>
