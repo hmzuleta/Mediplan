@@ -34,9 +34,9 @@
     <data-source source="LOCAL" name="Rails Proyecto: production" uuid="82884bbf-7000-45cb-a9cb-eb1e656fc830">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://backus1.uniandes.edu.co/s2603a031310</jdbc-url>
-      <user-name>s2603a031310</user-name>
-      <user-password>dfcbdfc7dfcbdfdedfcfdfd8dfcbdf9ddfccdfc5dfc9dfc3dfc4dfc5df93</user-password>
+      <jdbc-url>jdbc:postgresql://ec2-23-21-129-125.compute-1.amazonaws.com:5432/d997ft050f0fgu</jdbc-url>
+      <user-name>ynelcfpraogaxw</user-name>
+      <user-password>df9edfe9dfc0df9bdfc1dfcedffddfffdfe7df98dfdfdff8dfeedfffdff0dfcedff3df9adfe4dfcedfe3dfe7dfffdf98df9bdffe</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>

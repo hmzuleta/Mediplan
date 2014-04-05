@@ -32,14 +32,14 @@ test: &test
    host: backus1.uniandes.edu.co
 
 production:
-   adapter: mysql2
-   encoding: utf8
-   reconnect: false
-   database: s2603a031310
-   pool: 5
-   username: s2603a031310
-   password: amatera7focino9
-   host: backus1.uniandes.edu.co
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: d997ft050f0fgu
+  username: ynelcfpraogaxw
+  password: 4Cj1kdWUM2uRDUZdY0NdIMU21T
+  host: ec2-23-21-129-125.compute-1.amazonaws.com
+  port: 5432
 
 cucumber:
   <<: *test
