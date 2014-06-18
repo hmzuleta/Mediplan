@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="643af306-8bea-475a-a661-ec74dbab657b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Proyecto.iml" afterPath="$PROJECT_DIR$/.idea/Proyecto.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="73790d83-7de0-43b2-a3cc-4828b214aa67" name="Revert: &#10;" comment="" />
@@ -1086,7 +1083,11 @@
       <created>1403120430614</created>
       <updated>1403120430614</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="moved twitter bootstrap gem outside of assets group">
+      <created>1403121137140</created>
+      <updated>1403121137140</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1154,7 +1155,8 @@
     <MESSAGE value="first working build for heroku." />
     <MESSAGE value="first working build for heroku.&#10;" />
     <MESSAGE value="first working build for heroku.&#10;1st try at fixing heroku deploy. commented twitter-bootstrap-rails gem." />
-    <option name="LAST_COMMIT_MESSAGE" value="first working build for heroku.&#10;1st try at fixing heroku deploy. commented twitter-bootstrap-rails gem." />
+    <MESSAGE value="moved twitter bootstrap gem outside of assets group" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved twitter bootstrap gem outside of assets group" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
