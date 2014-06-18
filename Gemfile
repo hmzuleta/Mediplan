@@ -6,7 +6,7 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'twitter-bootstrap-rails'
+# gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 # Gems used only for assets and not required
 # in production environments by default.

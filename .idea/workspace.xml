@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="643af306-8bea-475a-a661-ec74dbab657b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/hm94__000.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Proyecto.iml" afterPath="$PROJECT_DIR$/.idea/Proyecto.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="73790d83-7de0-43b2-a3cc-4828b214aa67" name="Revert: &#10;" comment="" />
@@ -25,6 +28,7 @@
     <SUITE FILE_PATH="coverage/Proyecto@Development__Proyecto.coverage" NAME="Development: Proyecto Coverage Results" MODIFIED="1403119047932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Proyecto" />
     <SUITE FILE_PATH="coverage/Proyecto@Test__Proyecto.coverage" NAME="Test: Proyecto Coverage Results" MODIFIED="1403119319210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Proyecto" />
     <SUITE FILE_PATH="coverage/Proyecto@test.coverage" NAME="test Coverage Results" MODIFIED="1403119241423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config/environments" MODULE_NAME="Proyecto" />
+    <SUITE FILE_PATH="coverage/Proyecto@IRB_console__Proyecto.coverage" NAME="IRB console: Proyecto Coverage Results" MODIFIED="1403121889782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Proyecto" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -42,24 +46,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="navigation_steps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/navigation_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="env.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="54" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,47 +55,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="21" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="539" selection-end="539" vertical-scroll-proportion="0.32635254" vertical-offset="0" max-vertical-offset="573">
+            <state line="11" column="16" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="32" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="8" column="2" selection-start="153" selection-end="153" vertical-scroll-proportion="0.23734729" vertical-offset="0" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="1156">
-              <folding />
+      <file leaf-file-name="RailsDependency/#Proyecto" pinned="false" current="false" current-in-tab="false">
+        <entry file="uml://RailsDependency/#Proyecto">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>RailsDependency</ID>
+              <OriginalElement>#Proyecto</OriginalElement>
+              <nodes>
+                <node x="378.0" y="157.0">Appointment</node>
+                <node x="0.0" y="354.25">OfficeAvailability</node>
+                <node x="365.0" y="0.0">DoctorAvailability</node>
+                <node x="20.0" y="213.25">Patient</node>
+                <node x="186.0" y="354.25">Office</node>
+                <node x="0.0" y="23.5">Doctor</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Doctor" target="Appointment">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Doctor" target="DoctorAvailability">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Patient" target="Appointment">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-162.5" y="178.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Association fields</Category>
+                <Category>Migration fields</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -161,8 +159,9 @@
         <option value="$PROJECT_DIR$/features/index.feature" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -239,6 +238,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mediplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mediplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,6 +354,50 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mediplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mediplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -380,7 +437,7 @@
     <property name="Database.TableEditor.PageSize" value="50" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="options.lastSelected" value="preferences.toDoOptions" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
     <property name="JdbcConsole.Extract.OpeningQuote" value="'" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
@@ -406,46 +463,7 @@
       <recent name="C:\Users\USUARIO\RubymineProjects\Proyecto\app\views" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Test: Proyecto">
-    <configuration default="false" name="Fill out patient login form" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="Proyecto" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="ANSICON" value="" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/patient.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Fill out patient login form$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="IRB console.IRB console: Proyecto">
     <configuration default="false" name="Fill out patient signup form" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="Proyecto" />
@@ -561,6 +579,25 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/config/environments/test.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IRB console: Proyecto" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="Proyecto" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="C:/RailsInstaller/Ruby1.9.3/bin/irb" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="--prompt simple" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -762,19 +799,19 @@
       <item index="3" class="java.lang.String" itemvalue="Rake.test" />
       <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="6" class="java.lang.String" itemvalue="Cucumber.Fill out patient login form" />
-      <item index="7" class="java.lang.String" itemvalue="Cucumber.Fill out patient signup form" />
-      <item index="8" class="java.lang.String" itemvalue="Cucumber.Find heading on the index" />
-      <item index="9" class="java.lang.String" itemvalue="IRB console.Rails console: Proyecto" />
-      <item index="10" class="java.lang.String" itemvalue="Ruby.test" />
+      <item index="6" class="java.lang.String" itemvalue="Cucumber.Fill out patient signup form" />
+      <item index="7" class="java.lang.String" itemvalue="Cucumber.Find heading on the index" />
+      <item index="8" class="java.lang.String" itemvalue="IRB console.Rails console: Proyecto" />
+      <item index="9" class="java.lang.String" itemvalue="Ruby.test" />
+      <item index="10" class="java.lang.String" itemvalue="IRB console.IRB console: Proyecto" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.test" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: Proyecto" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.Find heading on the index" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.Fill out patient signup form" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.Fill out patient login form" />
+        <item index="0" class="java.lang.String" itemvalue="IRB console.IRB console: Proyecto" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.test" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: Proyecto" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.Find heading on the index" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.Fill out patient signup form" />
       </list>
     </recent_temporary>
   </component>
@@ -1125,7 +1162,11 @@
       <created>1403121146893</created>
       <updated>1403121146893</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="removed requires bootstrap on application.css, expecting to work only with bootstrap.css from url, temporarily">
+      <created>1403121329674</created>
+      <updated>1403121329674</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1162,7 +1203,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17651515" sideWeight="0.14637904" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37330553" sideWeight="0.30729166" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37330553" sideWeight="0.6927083" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37330553" sideWeight="0.6927083" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33590138" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1195,7 +1236,8 @@
     <MESSAGE value="first working build for heroku.&#10;1st try at fixing heroku deploy. commented twitter-bootstrap-rails gem." />
     <MESSAGE value="moved twitter bootstrap gem outside of assets group" />
     <MESSAGE value="moved twitter bootstrap gem outside of assets group&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved twitter bootstrap gem outside of assets group&#10;" />
+    <MESSAGE value="removed requires bootstrap on application.css, expecting to work only with bootstrap.css from url, temporarily" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed requires bootstrap on application.css, expecting to work only with bootstrap.css from url, temporarily" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1203,32 +1245,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="36" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/navigation_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/page/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="850" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1241" />
@@ -1357,13 +1373,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="421" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/navigation_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/page/index.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="850" />
@@ -1384,13 +1393,6 @@
         <state line="4" column="25" selection-start="82" selection-end="82" vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="10" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731" />
@@ -1399,13 +1401,6 @@
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.14834206" vertical-offset="0" max-vertical-offset="1241" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="54" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="1139">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -1452,13 +1447,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
@@ -1473,27 +1461,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="918">
+        <state line="13" column="22" selection-start="621" selection-end="621" vertical-scroll-proportion="0.38568935" vertical-offset="0" max-vertical-offset="573">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/css/datepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="372" selection-end="372" vertical-scroll-proportion="0.59336823" vertical-offset="0" max-vertical-offset="3179">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="21" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+        <state line="19" column="28" selection-start="947" selection-end="947" vertical-scroll-proportion="0.5253054" vertical-offset="22" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="272" selection-end="272" vertical-scroll-proportion="0.17801048" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="54" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.40837696" vertical-offset="208" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/navigation_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/README_FOR_APP">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="10" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="539" selection-end="539" vertical-scroll-proportion="0.32635254" vertical-offset="0" max-vertical-offset="573">
+        <state line="11" column="16" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="uml://RailsDependency/#Proyecto">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>#Proyecto</OriginalElement>
+          <nodes>
+            <node x="378.0" y="157.0">Appointment</node>
+            <node x="0.0" y="354.25">OfficeAvailability</node>
+            <node x="365.0" y="0.0">DoctorAvailability</node>
+            <node x="20.0" y="213.25">Patient</node>
+            <node x="186.0" y="354.25">Office</node>
+            <node x="0.0" y="23.5">Doctor</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Doctor" target="Appointment">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Doctor" target="DoctorAvailability">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Patient" target="Appointment">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-162.5" y="178.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="153" selection-end="153" vertical-scroll-proportion="0.23734729" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
