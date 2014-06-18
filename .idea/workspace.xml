@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="643af306-8bea-475a-a661-ec74dbab657b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Proyecto.iml" afterPath="$PROJECT_DIR$/.idea/Proyecto.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="73790d83-7de0-43b2-a3cc-4828b214aa67" name="Revert: &#10;" comment="" />
@@ -76,25 +69,7 @@
       <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.05061082" vertical-offset="277" max-vertical-offset="850">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="59" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="935">
+            <state line="44" column="11" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.82198954" vertical-offset="277" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -225,6 +200,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mediplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mediplan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1065,7 +1054,11 @@
       <created>1403117080871</created>
       <updated>1403117080871</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="updated databases, now using postgresql">
+      <created>1403117935176</created>
+      <updated>1403117935176</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1129,7 +1122,8 @@
     <MESSAGE value="&#10;" />
     <MESSAGE value="Mediplan v1" />
     <MESSAGE value="Mediplan 2014" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mediplan 2014" />
+    <MESSAGE value="updated databases, now using postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated databases, now using postgresql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1253,11 +1247,6 @@
         <state line="221" column="17" selection-start="6242" selection-end="6242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="64" selection-start="82" selection-end="82" vertical-scroll-proportion="0.18941504" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/doctor.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="0" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -1333,13 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
@@ -1347,16 +1329,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/intgration_test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="82" selection-end="82" vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.20767888" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="59" selection-start="323" selection-end="323" vertical-scroll-proportion="0.14834206" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="935">
+        <state line="41" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.58464223" vertical-offset="362" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.05061082" vertical-offset="277" max-vertical-offset="850">
+        <state line="44" column="11" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.82198954" vertical-offset="277" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
