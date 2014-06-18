@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="643af306-8bea-475a-a661-ec74dbab657b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__Proyecto.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__Proyecto.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/db_migrate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Proyecto.iml" afterPath="$PROJECT_DIR$/.idea/Proyecto.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="73790d83-7de0-43b2-a3cc-4828b214aa67" name="Revert: &#10;" comment="" />
@@ -24,6 +28,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Proyecto@Development__Proyecto.coverage" NAME="Development: Proyecto Coverage Results" MODIFIED="1403116887144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Proyecto" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -61,7 +68,7 @@
       <file leaf-file-name="index.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/page/index.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="850">
+            <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -70,7 +77,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="4.76" vertical-offset="204" max-vertical-offset="1241">
+            <state line="5" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -80,18 +87,24 @@
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="32" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="850">
-              <folding>
-                <marker date="1396713913295" expanded="true" signature="854:1074" placeholder="production:" />
-                <marker date="1396713913295" expanded="true" signature="1075:1096" placeholder="cucumber:" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="366" selection-end="366" vertical-scroll-proportion="0.7429306" vertical-offset="0" max-vertical-offset="986">
+            <state line="22" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql2.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/mysql2-0.3.11-x86-mingw32/lib/mysql2/mysql2.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.029668411" vertical-offset="0" max-vertical-offset="573">
               <folding />
             </state>
           </provider>
@@ -109,6 +122,7 @@
     <option name="ENVIRONMENT" value="development" />
   </component>
   <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -118,10 +132,10 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/app/models/appointment.rb" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/config/routes.rb" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app/controllers/page_controller.rb" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/config/routes.rb" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app/models/doctor.rb" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/models/appointment.rb" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -154,10 +168,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -290,7 +304,7 @@
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="92" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="103" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/RailsInstaller/Ruby1.9.3/bin/ruby.exe" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="778" />
     <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="103" />
@@ -701,142 +715,6 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="false" name="Production: Proyecto" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="Proyecto" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Development: Proyecto" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="Proyecto" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="Proyecto" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":shoulda :test_unit " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="spec" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="Proyecto" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="Proyecto" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Rails.Production: Proyecto" />
       <item index="1" class="java.lang.String" itemvalue="Rails.Development: Proyecto" />
@@ -1202,20 +1080,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32126698" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3211679" sideWeight="0.62864584" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32512316" sideWeight="0.5007576" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880846" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880846" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819724" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15373352" sideWeight="0.6732348" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10885417" sideWeight="0.6732348" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.6732348" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17395833" sideWeight="0.6732348" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17651515" sideWeight="0.14637904" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37405732" sideWeight="0.4633968" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37405732" sideWeight="0.5366032" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37330553" sideWeight="0.36770833" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37330553" sideWeight="0.6322917" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33590138" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1250,18 +1128,56 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/page_controller.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/navigation_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="17" selection-start="6242" selection-end="6242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10863">
+        <state line="25" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/doctor.feature">
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="0" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="663">
+        <state line="7" column="3" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1139">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/page/index.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="32" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/page_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="17" selection-start="6242" selection-end="6242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/doctor.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="0" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/navigation_steps.rb">
@@ -1280,44 +1196,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/admin.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="0" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="37" column="0" selection-start="0" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/pat_signup.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="0" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="14" column="29" selection-start="0" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/index.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/patient.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="0" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="13" column="41" selection-start="0" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/index.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="0" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="11" column="55" selection-start="0" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/patient.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="80" selection-start="0" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="16" column="80" selection-start="0" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/page/prueba.erb">
@@ -1337,9 +1241,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/page_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="221" column="17" selection-start="6242" selection-end="6242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="221" column="17" selection-start="6242" selection-end="6242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
@@ -1349,30 +1251,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/doctor.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="0" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="0" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/admin.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="0" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="37" column="0" selection-start="0" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/pat_signup.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="0" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="14" column="29" selection-start="0" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/patient.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="0" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="13" column="41" selection-start="0" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Andres.xml">
@@ -1382,35 +1276,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/index.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="652" selection-end="652" vertical-scroll-proportion="14.96" vertical-offset="544" max-vertical-offset="1207">
-          <folding />
-        </state>
+        <state line="10" column="1" selection-start="652" selection-end="652" vertical-scroll-proportion="14.96" vertical-offset="544" max-vertical-offset="1207" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130319035717_create_patients.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="421">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="421" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="4.76" vertical-offset="204" max-vertical-offset="1241">
+        <state line="5" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/page/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="850">
+        <state line="2" column="23" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
@@ -1432,16 +1320,20 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="32" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="850">
-          <folding>
-            <marker date="1396713913295" expanded="true" signature="854:1074" placeholder="production:" />
-            <marker date="1396713913295" expanded="true" signature="1075:1096" placeholder="cucumber:" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="366" selection-end="366" vertical-scroll-proportion="0.7429306" vertical-offset="0" max-vertical-offset="986">
+        <state line="22" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/mysql2-0.3.11-x86-mingw32/lib/mysql2/mysql2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.029668411" vertical-offset="0" max-vertical-offset="573">
           <folding />
         </state>
       </provider>
