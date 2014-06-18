@@ -30,6 +30,7 @@ group :test do
   gem 'capybara', :require => false
   gem 'cucumber-rails'
   gem 'test-unit'
+  gem 'pg'
 end
 
 

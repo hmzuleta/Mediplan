@@ -1,65 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="991502045">
-    <data-source source="LOCAL" name="Rails Proyecto: test" uuid="84c89671-9840-4f19-a18a-2544b6cc1c41">
-      <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+  <component name="DataSourceManagerImpl" format="xml" hash="1373784891">
+    <data-source source="LOCAL" name="Rails Proyecto: development" uuid="89eae4a8-fb0e-4959-9890-7cd819c8c2df">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://ec2-23-21-129-125.compute-1.amazonaws.com:5432/d997ft050f0fgu</jdbc-url>
       <user-name>ynelcfpraogaxw</user-name>
       <user-password>df9edfe9dfc0df9bdfc1dfcedffddfffdfe7df98dfdfdff8dfeedfffdff0dfcedff3df9adfe4dfcedfe3dfe7dfffdf98df9bdffe</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar</url>
-        </library>
-      </libraries>
+      <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails Proyecto: cucumber" uuid="f4c8492a-039f-47ff-8328-68ff1a2a3431">
-      <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <data-source source="LOCAL" name="Rails Proyecto: test" uuid="11e77bff-ecbb-471a-b1bd-d243a6488faf">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://ec2-23-21-129-125.compute-1.amazonaws.com:5432/d997ft050f0fgu</jdbc-url>
       <user-name>ynelcfpraogaxw</user-name>
       <user-password>df9edfe9dfc0df9bdfc1dfcedffddfffdfe7df98dfdfdff8dfeedfffdff0dfcedff3df9adfe4dfcedfe3dfe7dfffdf98df9bdffe</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar</url>
-        </library>
-      </libraries>
+      <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails Proyecto: production" uuid="82884bbf-7000-45cb-a9cb-eb1e656fc830">
-      <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <data-source source="LOCAL" name="Rails Proyecto: production" uuid="bf3fc4a9-8753-4357-bd33-65e3d9bc2012">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://ec2-23-21-129-125.compute-1.amazonaws.com:5432/d997ft050f0fgu</jdbc-url>
       <user-name>ynelcfpraogaxw</user-name>
       <user-password>df9edfe9dfc0df9bdfc1dfcedffddfffdfe7df98dfdfdff8dfeedfffdff0dfcedff3df9adfe4dfcedfe3dfe7dfffdf98df9bdffe</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="Rails Proyecto: development" uuid="869c60f7-0645-46fc-bbb6-0f2a62efbaf9">
-      <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://backus1.uniandes.edu.co/s2603a031310</jdbc-url>
-      <user-name>s2603a031310</user-name>
-      <user-password>dfcbdfc7dfcbdfdedfcfdfd8dfcbdf9ddfccdfc5dfc9dfc3dfc4dfc5df93</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar</url>
-        </library>
-      </libraries>
+      <libraries />
     </data-source>
   </component>
 </project>

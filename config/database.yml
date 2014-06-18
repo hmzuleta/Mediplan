@@ -21,7 +21,7 @@ development:
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test: test
+test:
    adapter: postgresql
    encoding: unicode
    pool: 5
@@ -40,6 +40,3 @@ production:
   password: 4Cj1kdWUM2uRDUZdY0NdIMU21T
   host: ec2-23-21-129-125.compute-1.amazonaws.com
   port: 5432
-
-cucumber:
-  <<: *test

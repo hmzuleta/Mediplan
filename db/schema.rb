@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130429050303) do
+ActiveRecord::Schema.define(:version => 20130428193259) do
 
   create_table "appointments", :force => true do |t|
     t.time     "hour"
@@ -23,15 +23,6 @@ ActiveRecord::Schema.define(:version => 20130429050303) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "doctor_availabilities", :force => true do |t|
-    t.string   "pID_doctor"
-    t.date     "day"
-    t.time     "hour"
-    t.boolean  "checked"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "doctors", :force => true do |t|
     t.string   "name"
     t.string   "pID"
@@ -40,17 +31,9 @@ ActiveRecord::Schema.define(:version => 20130429050303) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "office_availabilities", :force => true do |t|
-    t.string   "location"
-    t.date     "day"
-    t.time     "hour"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "offices", :force => true do |t|
     t.string   "location"
-    t.string   "speciality"
+    t.string   "specialty"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
