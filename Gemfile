@@ -28,7 +28,7 @@ group :test do
   gem 'sinatra'
   gem 'cucumber'
   gem 'capybara', :require => false
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require => false
   gem 'test-unit'
 end
 

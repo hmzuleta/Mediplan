@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1373784891">
-    <data-source source="LOCAL" name="Rails Proyecto: development" uuid="89eae4a8-fb0e-4959-9890-7cd819c8c2df">
+  <component name="DataSourceManagerImpl" format="xml" hash="596748437">
+    <data-source source="LOCAL" name="Rails Proyecto: development" uuid="beba7c47-694c-483d-a2f6-7b05b35238e1">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-23-21-129-125.compute-1.amazonaws.com:5432/d997ft050f0fgu</jdbc-url>
-      <user-name>ynelcfpraogaxw</user-name>
-      <user-password>df9edfe9dfc0df9bdfc1dfcedffddfffdfe7df98dfdfdff8dfeedfffdff0dfcedff3df9adfe4dfcedfe3dfe7dfffdf98df9bdffe</user-password>
+      <jdbc-url>jdbc:postgresql://ec2-54-225-102-235.compute-1.amazonaws.com:5432/dbvdn5p2gcrsf4</jdbc-url>
+      <user-name>rdbenkvxjrwtny</user-name>
+      <user-password>df9bdfc6dff2dfcddf9bdfdcdfdfdf9cdfcfdf9cdfc7dfc8dfc8dfc9dfcddff2df87dff0dfd2dffedfc7dfc2dfe6df92dfd3df99</user-password>
       <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails Proyecto: test" uuid="11e77bff-ecbb-471a-b1bd-d243a6488faf">
+    <data-source source="LOCAL" name="Rails Proyecto: test" uuid="b5a31e68-3010-417f-8894-77b52c8b472e">
       <driver-ref>postgresql</driver-ref>
+      <auto-commit>false</auto-commit>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-23-21-129-125.compute-1.amazonaws.com:5432/d997ft050f0fgu</jdbc-url>
-      <user-name>ynelcfpraogaxw</user-name>
-      <user-password>df9edfe9dfc0df9bdfc1dfcedffddfffdfe7df98dfdfdff8dfeedfffdff0dfcedff3df9adfe4dfcedfe3dfe7dfffdf98df9bdffe</user-password>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/postgres</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc2dfdfdfcddfc5</user-password>
       <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails Proyecto: production" uuid="bf3fc4a9-8753-4357-bd33-65e3d9bc2012">
+    <data-source source="LOCAL" name="Rails Proyecto: production" uuid="507c5703-3036-4f63-a3ea-e280496a90af">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://ec2-23-21-129-125.compute-1.amazonaws.com:5432/d997ft050f0fgu</jdbc-url>
-      <user-name>ynelcfpraogaxw</user-name>
-      <user-password>df9edfe9dfc0df9bdfc1dfcedffddfffdfe7df98dfdfdff8dfeedfffdff0dfcedff3df9adfe4dfcedfe3dfe7dfffdf98df9bdffe</user-password>
+      <jdbc-url>jdbc:postgresql://ec2-54-225-102-235.compute-1.amazonaws.com:5432/dbvdn5p2gcrsf4</jdbc-url>
+      <user-name>rdbenkvxjrwtny</user-name>
+      <user-password>df9bdfc6dff2dfcddf9bdfdcdfdfdf9cdfcfdf9cdfc7dfc8dfc8dfc9dfcddff2df87dff0dfd2dffedfc7dfc2dfe6df92dfd3df99</user-password>
       <libraries />
     </data-source>
   </component>
