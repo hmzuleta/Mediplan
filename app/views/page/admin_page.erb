@@ -1,44 +1,23 @@
 <div class="container">
   <div class="span3 text-left">
-    <% if session[:usuario]=='jce' %>
+    <% if session[:usuario]=='admin' %>
         <br>
         <br>
-        <h1>&nbsp&nbsp&nbspOpciones</h1>
+        <h1>Opciones</h1>
         <br>
-        <div id="Ver Consultorios">
-          <%= link_to 'Ver Consultorios <i class="icon-list-alt"></i>'.html_safe, "/page/admin_offices", :method => :post, :class=> 'btn span2', :title=>"Ver y agregar consultorios"%>
-        </div>
-        &nbsp<br>
-        &nbsp
 
         <br>
-        <%= link_to 'Generar Citas <i class="icon-white icon-calendar"></i>'.html_safe, "/page/admin_generate", :method => :post, :class=> 'btn btn-primary span2', :title=>"Generar citas de los médicos (inicio de mes)"%>
-        &nbsp<br>
-        &nbsp
-
-        <br>
-        <%= link_to 'Inscribir Médico <i class="icon-white icon-user"></i>'.html_safe, "/page/admin_insDoc", :method => :post, :class=> 'btn btn-success span2', :title=>"Agregar un médico al sistema"%>
-        &nbsp<br>
-        &nbsp
-
-        <br>
-        <%= link_to 'Terminar Mes <i class="icon-white icon-off"></i>'.html_safe, "/page/admin_endMonth", :method => :post, :class=> 'btn btn-danger span2', :title=>"Terminar mes y reiniciar las citas"%>
+        <%= link_to 'Inscribir Médico <i class="icon-white icon-user"></i>'.html_safe, '/page/admin_insDoc', :method => :post, :class=> 'btn btn-success span2', :title=>'Agregar un médico al sistema'%>
         &nbsp<br>
         &nbsp
         <br>
-        </div>
+        <%= link_to 'Cambiar contraseña <i class="icon-white icon-off"></i>'.html_safe, '/page/admin_changePW', :method => :post, :class=> 'btn btn-danger span2', :title=>'Cambiar contraseña'%>
+        &nbsp<br>
+        &nbsp
+        <br>
         <div class="span6 text-left">
-          <h2>Jefe de Consulta Externa</h2>
           <h3>Estadísticas actuales</h3>
           <table class="table table-hover">
-            <tr>
-              <td><h5>Consultorio con más citas:</h5></td>
-              <td class="text-center"><h6><%= @est1 %></h6></td>
-            </tr>
-            <tr>
-              <td><h5>Especialidad con más citas:</h5></td>
-              <td class="text-center"><h6><%= @est2 %></h6></td>
-            </tr>
             <tr>
               <td><h5>Día con más citas:</h5></td>
               <td class="text-center"><h6><%= @est3 %></h6></td>
@@ -47,8 +26,8 @@
         </div>
     <% else %>
         <div class="span11 text-center">
-          <h1>No admin :(</h1>
-          <h5>Necesita ingresar como jefe de consulta externa para acceder a esta página</h5>
+          <h1>Acceso denegado: usted no es administrador :(</h1>
+          <h5>Si considera que lo es, verifique su contraseña e intente de nuevo.</h5>
           <br>
         </div>
     <% end %>

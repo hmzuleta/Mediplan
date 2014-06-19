@@ -13,36 +13,52 @@
 
 ActiveRecord::Schema.define(:version => 20130428193259) do
 
-  create_table "appointments", :force => true do |t|
-    t.time     "hour"
-    t.date     "day"
-    t.string   "pID_doctor"
-    t.string   "pID_patient"
-    t.string   "office"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+  create_table 'appointments', :force => true do |t|
+    t.date     'day', :null => false
+    t.time     'hour', :null => false
+    t.string   'pID_patient', :null => false
   end
 
-  create_table "doctors", :force => true do |t|
-    t.string   "name"
-    t.string   "pID"
-    t.string   "specialty"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table 'doctors', :force => true do |t|
+    t.string   'name'
+    t.string   'pID'
+    t.string   'pw'
   end
 
-  create_table "offices", :force => true do |t|
-    t.string   "location"
-    t.string   "specialty"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table 'patients', :force => true do |t|
+    t.string  'name', :null => false
+    t.string  'pID', :unique => true, :null => false
+    t.string  'IDType', :null => false
+    t.string  'sex', :null => false
+    t.string  'maritalStatus', :null => false
+    t.string  'bPlace', :null => false
+    t.string  'bDay', :null => false
+    t.string  'address', :null => false
+    t.integer 'tel1', :null => false
+    t.integer 'tel2', :null => false
+    t.string  'occup', :null => false
+    t.string  'empresaRemit'
+    t.integer 'numContratoPol'
+    t.string  'responsable'
+    t.integer 'telResponsable'
+    t.string  'antecedentesFam', :null => false
+    t.string  'antecedentesPers', :null => false
   end
 
-  create_table "patients", :force => true do |t|
-    t.string   "name"
-    t.string   "pID"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table 'controls', :force => true do |t|
+    t.string  'pID', :unique => true, :null => false
+    t.date    'fecha', :null => false
+    t.time    'hora', :null => false
+    t.string  'motivo', :null => false
+    t.string  'antecedentesFam', :null => false
+    t.string  'antecedentesPers', :null => false
+    t.decimal 'peso', :null => false
+    t.string  'tensionArt', :null => false
+    t.boolean 'esPrimeraVez'
+    t.string  'nomAcomp', :null => false
+    t.integer 'tel1Acomp', :null => false
+    t.integer 'tel2Acomp', :null => false
+    t.string  'parentesco', :null => false
   end
 
 end

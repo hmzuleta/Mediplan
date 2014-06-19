@@ -3,7 +3,6 @@
       <div class="row">
         <div class="span2">
           <h3 class="text-center"><%=session[:nombre]%></h3>
-          <h4 class="text-center"><%=session[:appo]%></h4>
         </div>
         <!-- TABLA DE CITAS ACTUALES -->
         <div class="span10">
@@ -15,7 +14,7 @@
           <% end %>
           <h3>Próximas citas</h3>
           <% if @citas.empty?%>
-              <h6>Actualmente, usted no tiene citas</h6><br>
+              <h6>Actualmente, usted no tiene citas programadas.</h6><br>
           <% else %>
               <table class="table table-hover">
                 <tr>
@@ -32,7 +31,6 @@
                           <td width="58%" align="left"><%= Patient.where(:pID => c[:pID_patient]).first[:name] %></td>
                           <td width="24%" align="center"><%= c[:day].to_formatted_s(:long) %></td>
                           <td width="18%" align="center"><%= c[:hour].to_s(:time) %></td>
-                          <td width="18%" align="center"><%= c[:office].to_s %></td>
                           <td width="18%" align="center">
                             <%= button_tag(type: "submit", class: "btn btn-danger", title:"Cancelar la cita") do %>
                                 Cancelar
@@ -52,7 +50,7 @@
       <hr>
   <% else %>
       <h1 class="text-error">Login Incorrecto</h1>
-      <h6>Nombre o cédula incorrectos</h6>
+      <h6>Contraseña incorrecta</h6>
       <a class="btn btn-primary" href="/page/doc_login" title="Regresar a la página de login">
         <i class="icon-white icon-arrow-left"></i> Volver</a>
   <% end %>

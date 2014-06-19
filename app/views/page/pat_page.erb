@@ -1,58 +1,46 @@
 <div class="container text-center">
 
-  <% if session[:usuario] == 'pat' %>
   <h1>Listado de citas</h1>
 
   <% citas = Appointment.where(:pID_patient => session[:cedula]).order(:day) %>
   <% if(citas.empty?)%>
-    <h6>Actualmente, usted no tiene citas</h6><br>
+      <h6>Actualmente, el paciente <%=session[:nombre]%> no tiene citas</h6><br>
   <% else %>
-  <div class="row">
-    <div class="span2">
-      <h3 class="text-center"><%=session[:nombre]%></h3>
-    </div>
-    <!-- TABLA DE CITAS ACTUALES -->
-    <div class="span10">
-      <table class="table table-hover">
-        <tr> 
-          <th width="58%" align="left">Médico</th>
-          <th width="24%" align="center">Fecha</th>
-          <th width="18%" align="center">Hora</th>
-          <th width="18%" align="center">Consultorio</th>
-          <th width="18%" align="center"></th>
-        </tr>
-        <!--ESTO SE REPITE N VECES (NUMERO DE CITAS YA RESERVADAS)-->
-        <% citas.each do |appointment| %>
+      <div class="row">
+        <div class="span2">
+          <h3 class="text-center">Citas</h3>
+        </div>
+        <!-- TABLA DE CITAS ACTUALES -->
+        <div class="span10">
+          <table class="table table-hover">
             <tr>
-              <%= form_tag('/page/pat_cancelar') do %>
-                  <td width="58%" align="left"><%= Doctor.where(:pID => appointment[:pID_doctor]).first[:name]%></td>
-                  <td width="24%" align="center"><%= appointment[:day].to_formatted_s(:long)%></td>
-                  <td width="18%" align="center"><%= appointment[:hour].to_s(:time)%></td>
-                  <td width="18%" align="center"><%= appointment[:office].to_s %></td>
-                  <td width="18%" align="center">
-                    <%= button_tag(type: "submit", class: "btn btn-danger") do %>
-                        Cancelar
-                    <% end %>
-                  </td>
-                  <%= hidden_field_tag :hora, appointment[:hour] %>
-                  <%= hidden_field_tag :cedDoctor, appointment.pID_doctor %>
-                  <%= hidden_field_tag :dia, appointment[:day] %>
-              <% end %>
+              <th width="30%" align="center">Fecha</th>
+              <th width="30%" align="center">Hora</th>
+              <th width="40%" align="center"></th>
             </tr>
-        <%end%>
-        <!--HASTA ACÁ--> 
-      </table>
-    </div>
-    <% end %>
-      <p class="text-center">
-        <a class="btn btn-success" href="/page/pat_selEsp" id="Reservar nueva cita">Reservar nueva cita <i class="icon-white icon-plus"></i></a>
-      </p>
-    <% else %>
-    <h1>Login Incorrecto</h1>
-    <h6>Nombre o cédula incorrectos</h6>
-      <a class="btn btn-primary" href="/page/pat_login"> <i class="icon-white icon-arrow-left"></i> Volver</a>
-      <a class="btn btn-success" href="/page/pat_signup">Aún no tengo cuenta <i class="icon-white icon-plus"></i></a>
-    <%end%>
+            <!--ESTO SE REPITE N VECES (NUMERO DE CITAS YA RESERVADAS)-->
+            <% citas.each do |appointment| %>
+                <tr>
+                  <%= form_tag('/page/pat_cancelar') do %>
+                      <td width="30%" align="center"><%= appointment[:day].to_s%></td>
+                      <td width="30%" align="center"><%= appointment[:hour].to_s(:time)%></td>
+                      <td width="40%" align="center">
+                        <%= button_tag(type: 'submit', class: 'btn btn-danger') do %>
+                            Cancelar
+                        <% end %>
+                      </td>
+                      <%= hidden_field_tag :hora, appointment[:hour] %>
+                      <%= hidden_field_tag :dia, appointment[:day] %>
+                  <% end %>
+                </tr>
+            <%end%>
+            <!--HASTA ACÁ-->
+          </table>
+        </div>
+  <% end %>
+  <p class="text-center">
+    <a class="btn btn-success" href="/page/pat_selEsp" id="Reservar nueva cita">Reservar nueva cita <i class="icon-white icon-plus"></i></a>
+  </p>
 
   </div>
   <hr>

@@ -4,13 +4,10 @@ class Patient < ActiveRecord::Base
   #ademas de poder tener varias citas a su nombre
   #NO ESCRIBIR ACCESOR
 
-  attr_accessible :name, :pID
+  attr_accessible :name, :pID, :IDType , :sex, :maritalStatus, :bPlace, :bDay, :address, :tel1, :tel2, :occup, :empresaRemit, :numContratoPol, :responsable, :telResponsable,
+                  :antecedentesFam, :antecedentesPers
   has_many :appointments
-  validates_presence_of :name
-  validates :name, :format => {:with=> /^[a-zA-Z\s\D]+$/}
-  validates :pID, :presence => true,
-                  :numericality => { :only_integer => true,
-                                     :greater_than_or_equal_to => 100000,
-                                     :less_than_or_equal_to => 9999999999 },
-                  :uniqueness => true
+  has_many :controls
+  validates_presence_of :name, :pID, :IDType , :sex, :maritalStatus, :bPlace, :bDay, :address, :tel1, :tel2, :occup, :antecedentesFam, :antecedentesPers
+  validates :pID, :uniqueness => true
 end

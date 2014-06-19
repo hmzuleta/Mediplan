@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Hospital Santander</title>
+	<title>Mediplan</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="http://bootstrapcdn.com/twitter-bootstrap/3.1.1/css/bootstrap.css">	<%= stylesheet_link_tag :default %>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
@@ -75,7 +75,7 @@ CÓDIGO OPEN SOURCE (api.jqueryui.com)-->
                   <li class="active">
                     <a class="navbar-link" href="/page/doc_page" title="Home">Dr. <%= session[:nombre] %></a>
                   </li>
-              <% elsif session[:usuario] == 'jce' %>
+              <% elsif session[:usuario] == 'admin' %>
                   <li class="active">
                     <a class="navbar-link" href="/page/admin_page" title="Home">Administrador</a>
                   </li>
@@ -102,6 +102,6 @@ CÓDIGO OPEN SOURCE (api.jqueryui.com)-->
           2014
         </small>
 	</div>
-		<!-- Fin del Footer -->
+	<!-- Fin del Footer -->
 </body>
 </html>

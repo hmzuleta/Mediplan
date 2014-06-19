@@ -3,9 +3,7 @@ class CreateDoctors < ActiveRecord::Migration
     create_table :doctors do |t|
       t.string :name
       t.string :pID
-      t.string :specialty
-
-      t.timestamps
+      t.string :pw
     end
   end
 end

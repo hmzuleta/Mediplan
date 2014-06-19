@@ -1,13 +1,11 @@
 Proyecto::Application.routes.draw do
-  resources :office_availabilities
 
-
-  resources :doctor_availabilities
+  resources :controls
   resources :appointments
   resources :doctors
   resources :patients
 
-  match "/login_jce" => redirect("/page/admin_login")
+  match "/login_admin" => redirect("/page/admin_login")
   match "/login_p" => redirect("/page/pat_login")
   match "/page/pat_page" => "page#pat_page"
   match "/page/pat_cancelar" => "page#pat_cancelar"
@@ -17,8 +15,6 @@ Proyecto::Application.routes.draw do
   match "/pat_create" => "page#pat_create"
   match "/page/pat_create" => "page#pat_create"
   match "/page/pat_signup" => "page#pat_signup"
-  match "/page/admin_offices" => "page#admin_offices"
-  match "/page/add_availability" => "page#doc_add_availability"
 
   match "/page/doc_page" => "page#doc_page"
   match "/page/doc_cancelar" => "page#doc_cancelar"
@@ -26,10 +22,6 @@ Proyecto::Application.routes.draw do
   match "/page/admin_addDoc" => "page#admin_addDoc"
   match "/page/admin_page" => "page#admin_page"
   match "/page/admin_insDoc" => "page#admin_insDoc"
-  match "/page/admin_insCons" => "page#admin_insCons"
-  match "/page/admin_addCons" => "page#admin_addCons"
-  match "/page/admin_endMonth" => "page#admin_endMonth"
-  match "/prueba" => "page#prueba"
 
 
   match "/logout" => "page#logout"
