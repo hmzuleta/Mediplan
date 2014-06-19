@@ -1,17 +1,17 @@
 <div class="container">
   <div class="span3 text-left">
     <% if session[:usuario]=='admin' %>
-        <br>
-        <br>
-        <h1>Opciones</h1>
+        <h1>Panel de Control</h1>
         <br>
 
         <br>
-        <%= link_to 'Inscribir Médico <i class="icon-white icon-user"></i>'.html_safe, '/page/admin_insDoc', :method => :post, :class=> 'btn btn-success span2', :title=>'Agregar un médico al sistema'%>
+        <%= link_to 'Inscribir Médico <i class="icon-white icon-user"></i>'.html_safe, '/page/admin_insDoc',
+                    :method => :post, :class=> 'btn btn-success span2', :title=>'Agregar un médico al sistema'%>
         &nbsp<br>
         &nbsp
         <br>
-        <%= link_to 'Cambiar contraseña <i class="icon-white icon-off"></i>'.html_safe, '/page/admin_changePW', :method => :post, :class=> 'btn btn-danger span2', :title=>'Cambiar contraseña'%>
+        <%= link_to 'Cambiar contraseña <i class="icon-white icon-off"></i>'.html_safe, '/page/admin_changePW',
+                    :method => :post, :class=> 'btn btn-danger span2', :title=>'Cambiar contraseña'%>
         &nbsp<br>
         &nbsp
         <br>
@@ -28,6 +28,7 @@
         <div class="span11 text-center">
           <h1>Acceso denegado: usted no es administrador :(</h1>
           <h5>Si considera que lo es, verifique su contraseña e intente de nuevo.</h5>
+          <h5>Verifique también que su sesión no haya expirado.</h5>
           <br>
         </div>
     <% end %>

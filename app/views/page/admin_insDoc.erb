@@ -1,19 +1,19 @@
 <div class="container text-center">
-  <h1>Cambiar contraseña</h1><br>
-  <%= form_tag('/page/admin_PW') do %>
+  <h1>Registrar nuevo médico</h1><br>
+  <%= form_tag('/page/admin_addDoc') do %>
       <div class="control-group">
         <div class="controls">
-          <%= password_field_tag :old, nil, {placeholder: 'Ingrese su contraseña actual'} %>
+          <%= text_field_tag :name, nil, {placeholder: 'Nombre completo'} %>
         </div>
       </div>
       <div class="control-group">
         <div class="controls">
-          <%= password_field_tag :new, nil, {placeholder: 'Ingrese su nueva contraseña'} %>
+          <%= text_field_tag :id, nil, {placeholder: 'Número de cédula'} %>
         </div>
       </div>
       <div class="control-group">
         <div class="controls">
-          <%= password_field_tag :newConf, nil, {placeholder: 'Confirme su nueva contraseña'} %>
+          <%= text_field_tag :pw, nil, {placeholder: 'contraseña'} %>
         </div>
       </div>
       <div class="control-group">

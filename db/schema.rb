@@ -13,6 +13,11 @@
 
 ActiveRecord::Schema.define(:version => 20130428193259) do
 
+  create_table 'admins', :force => true do |t|
+    t.string   'pID'
+    t.string   'pw'
+  end
+
   create_table 'appointments', :force => true do |t|
     t.date     'day', :null => false
     t.time     'hour', :null => false
@@ -36,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20130428193259) do
     t.string  'address', :null => false
     t.integer 'tel1', :null => false
     t.integer 'tel2', :null => false
+    t.string  'email'
     t.string  'occup', :null => false
     t.string  'empresaRemit'
     t.integer 'numContratoPol'
@@ -47,14 +53,12 @@ ActiveRecord::Schema.define(:version => 20130428193259) do
 
   create_table 'controls', :force => true do |t|
     t.string  'pID', :unique => true, :null => false
-    t.date    'fecha', :null => false
+    t.date    'day', :null => false
     t.time    'hora', :null => false
     t.string  'motivo', :null => false
-    t.string  'antecedentesFam', :null => false
-    t.string  'antecedentesPers', :null => false
     t.decimal 'peso', :null => false
     t.string  'tensionArt', :null => false
-    t.boolean 'esPrimeraVez'
+    t.boolean 'esPrimeraVez', :null => false
     t.string  'nomAcomp', :null => false
     t.integer 'tel1Acomp', :null => false
     t.integer 'tel2Acomp', :null => false

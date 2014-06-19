@@ -11,6 +11,7 @@ class CreatePatients < ActiveRecord::Migration
       t.string  :address
       t.integer :tel1
       t.integer :tel2
+      t.string  :email
       t.string  :occup
       t.string  :empresaRemit
       t.integer :numContratoPol

@@ -4,6 +4,6 @@ class Control < ActiveRecord::Base
   #ademas de poder tener varias citas a su nombre
   #NO ESCRIBIR ACCESOR
 
-  attr_accessible :pID, :fecha, :hora, :motivo, :diagnosticoAct, :antecedentesFam, :antecedentesPers, :peso, :tensionArt, :esPrimeraVez, :nomAcomp, :tel1Acomp, :tel2Acomp, :parentesco
-  validates_presence_of :pID, :fecha, :hora, :motivo, :diagnosticoAct, :antecedentesFam, :antecedentesPers, :peso, :tensionArt, :esPrimeraVez
+  attr_accessible :pID, :day, :hora, :motivo, :diagnosticoAct, :peso, :tensionArt, :esPrimeraVez, :nomAcomp, :tel1Acomp, :tel2Acomp, :parentesco
+  validates_presence_of :pID, :day, :hora, :motivo, :diagnosticoAct, :antecedentesFam, :antecedentesPers, :peso, :tensionArt, :esPrimeraVez
 end

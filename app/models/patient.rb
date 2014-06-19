@@ -4,7 +4,7 @@ class Patient < ActiveRecord::Base
   #ademas de poder tener varias citas a su nombre
   #NO ESCRIBIR ACCESOR
 
-  attr_accessible :name, :pID, :IDType , :sex, :maritalStatus, :bPlace, :bDay, :address, :tel1, :tel2, :occup, :empresaRemit, :numContratoPol, :responsable, :telResponsable,
+  attr_accessible :name, :pID, :IDType , :sex, :maritalStatus, :bPlace, :bDay, :address, :tel1, :tel2, :email, :occup, :empresaRemit, :numContratoPol, :responsable, :telResponsable,
                   :antecedentesFam, :antecedentesPers
   has_many :appointments
   has_many :controls

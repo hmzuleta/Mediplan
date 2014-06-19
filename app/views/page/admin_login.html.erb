@@ -1,8 +1,9 @@
 <div class="container text-center">
-    <h1>Ingresar como Jefe de Consulta Externa</h1><br>
+    <h1>Ingresar como Administrador</h1><br>
     <%= form_tag ('/page/admin_page') do %>
-        <%= password_field_tag :pass, nil, {placeholder: 'Clave'}%><br>
-        <%= button_tag(type: "submit", class: "btn btn-primary") do %>
+        <%= text_field_tag :pID, nil, {placeholder: 'Cédula'}%><br>
+        <%= password_field_tag :pw, nil, {placeholder: 'Clave'}%><br>
+        <%= button_tag(type: 'submit', class: 'btn btn-primary') do %>
             Entrar <i class="icon-white icon-user"></i>
         <% end %>
     <%end%>
